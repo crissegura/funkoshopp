@@ -1,5 +1,5 @@
-import React, {useState, useContext, useEffect} from "react";
-import { CartContext } from "./CartContext";
+import React, {useState, useContext} from "react";
+import { CartContext } from "../context/CartContext";
 import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 

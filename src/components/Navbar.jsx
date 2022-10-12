@@ -5,6 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
 import CartWidget from './CartWidget';
 
+
 function Navbarr() {
   return (
     <Navbar bg="light" expand="lg">
