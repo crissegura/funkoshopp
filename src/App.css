@@ -153,3 +153,7 @@ input{
     background-color: rgba(128, 128, 128, 0.212);
     padding: 5px;
 }
+
+.cartIconCant{
+    padding-right: 5px;
+}

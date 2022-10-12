@@ -15,6 +15,9 @@ function Navbarr() {
                 FunkoShop!
             </Link>
         </Navbar.Brand>
+        <Link style={{color:'black',textDecoration:'none'}} to='/carrito/'>
+                    <CartWidget />
+        </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -32,12 +35,6 @@ function Navbarr() {
               <NavDropdown.Item>
                 <Link style={{color:'black',textDecoration:'none'}} to='/categoria/games'>
                     Games
-                </Link>
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item>
-                <Link style={{color:'black',textDecoration:'none'}} to='/carrito/'>
-                    <CartWidget />
                 </Link>
               </NavDropdown.Item>
             </NavDropdown>
